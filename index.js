@@ -1,3 +1,5 @@
+require('./server');
+
 const { connectToDatabase } = require('./mongodb');
 const initializeBot = require('./utils/intializer');
 const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
